@@ -76,9 +76,24 @@ h1 {
   letter-spacing: 0.03em;
 }
 
+.our-strengths {
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  padding: 25px 100px;
+}
+
+.our-strengths-list {
+  display: flex;
+  gap: 30px;
+  padding-inline: 15px;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
 .sections-list {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-inline: 15px;
   display: flex;
   gap: 30px;
   margin: 0;
