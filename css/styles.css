@@ -30,8 +30,7 @@ ul {
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(../images/img-h1.jpg);
-  background-repeat: no-repeat;
+    url("../images/img-h1.jpg");
   background-position: 50% 35%;
   background-size: cover;
   padding: 200px 0;
