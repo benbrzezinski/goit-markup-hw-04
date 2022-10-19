@@ -309,7 +309,7 @@ h1 {
 }
 
 .projects-div figure {
-  border: 1px solid #eeeeee;
+  border: 1px solid #eee;
 }
 
 .projects-list {
@@ -322,7 +322,7 @@ h1 {
 }
 
 .projects-list img {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .projects-list h3 {
@@ -336,8 +336,14 @@ h1 {
 }
 
 .projects-list figure {
-  display: inline-block;
   margin: 0;
+}
+
+.projects-list figure:hover,
+.projects-list figure:focus {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
 }
 
 .projects-list figcaption {
