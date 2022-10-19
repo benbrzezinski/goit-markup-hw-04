@@ -309,7 +309,7 @@ h1 {
 }
 
 .projects-div figure {
-  border-bottom: 1px solid #eeeeee;
+  border: 1px solid #eeeeee;
 }
 
 .projects-list {
@@ -438,6 +438,12 @@ footer {
   padding: 60px 0;
 }
 
+.all-footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 70px;
+}
+
 .logo-footer {
   color: #fff;
   font-family: "Raleway";
@@ -462,9 +468,7 @@ address {
 }
 
 .logo-address-footer {
-  display: inline-block;
   margin-left: 15px;
-  margin-bottom: 9px;
 }
 
 .contacts-footer a {
@@ -482,9 +486,49 @@ address {
 
 .contacts-footer {
   margin: 0;
-  padding-left: 15px;
+  margin-top: 9px;
 }
 
 .contacts-footer li:nth-child(1) {
   margin-bottom: 9px;
+}
+
+.social-media-footer {
+  padding-top: 11px;
+}
+
+.social-media-footer > p {
+  color: var(--main-background-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.social-media-footer-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0;
+}
+
+.social-media-footer-item {
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  padding: 12px;
+}
+
+.social-media-footer-item:hover,
+.social-media-footer-item:focus {
+  background-color: var(--main-selection-color);
+  cursor: pointer;
+}
+
+.icons-footer {
+  fill: var(--main-background-color);
 }
