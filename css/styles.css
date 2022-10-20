@@ -24,15 +24,14 @@ ul {
 }
 
 .h1-div {
-  background-color: #2f303a;
   background-image: linear-gradient(
       90deg,
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
     url("../images/img-h1.jpg");
-  background-position: 50% 35%;
-  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   padding: 200px 0;
   margin-bottom: 94px;
 }
