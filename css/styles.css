@@ -418,6 +418,7 @@ header {
 
 .contacts-header {
   display: flex;
+  align-items: flex-end;
   gap: 30px;
   margin: 0;
 }
